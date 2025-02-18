@@ -1,4 +1,4 @@
-const employees = require('/src/employees.cjs')
+const employees = require(`${__dirname}/db/employees.cjs`)
 const express = require('express');
 const app = express();
 app.use(express.json());
